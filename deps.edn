@@ -1,8 +1,17 @@
-{:aliases  {:dev {:extra-paths ["development/src"]
+{:aliases  {:dev {:extra-paths ["development/src"
+                                "components/left/src"
+                                "components/right/src"]
                   :extra-deps {org.clojure/clojure {:mvn/version "1.10.3"}
-                               org.clojure/tools.deps.alpha {:mvn/version "0.12.1003"}}}
+                               org.clojure/tools.deps.alpha {:mvn/version "0.12.1003"}
+                               repro-lib/blue {:git/url "https://github.com/Matthew-Ielusic/MinimalBugRepro.git"
+                                               :sha "990eb1efff50e052c3065550e9aff5a94a484118"
+                                               :deps/root "Blue"}
+                               repro-lib/red  {:git/url "https://github.com/Matthew-Ielusic/MinimalBugRepro.git"
+                                               :sha "990eb1efff50e052c3065550e9aff5a94a484118"
+                                               :deps/root "Red"}}}
 
-            :test {:extra-paths []}
+            :test {:extra-paths ["components/left/test"
+                                 "components/right/test"]}
 
             :poly {:main-opts ["-m" "polylith.clj.core.poly-cli.core"]
                    :extra-deps {polyfy/polylith
