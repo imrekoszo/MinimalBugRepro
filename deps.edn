@@ -5,9 +5,11 @@
                                org.clojure/tools.deps.alpha {:mvn/version "0.12.1003"}
                                repro-lib/blue {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
                                                :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
-                                               :deps/root "Blue"}
+                                               :deps/root "blue"
+                                               :exclusions [repro-lib/root]}
                                repro-lib/red  {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
                                                :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
-                                               :deps/root "Red"}}}
+                                               :deps/root "red"
+                                               :exclusions [repro-lib/root]}}}
             :test {:extra-paths ["components/left/test"
                                  "components/right/test"]}}}
