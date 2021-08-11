@@ -1,0 +1,7 @@
+#kaocha/v1
+
+{:tests [{:id :unit
+          :source-paths ["components/right/src"
+                         "components/left/src"]
+          :test-paths   ["components/left/test"
+                         "components/right/test"]}]}
