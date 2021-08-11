@@ -6,10 +6,11 @@
                                repro-lib/blue {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
                                                :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
                                                :deps/root "blue"
-                                               :exclusions [repro-lib/root]}
+                                               :exclusions [repro/root]}
                                repro-lib/red  {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
                                                :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
                                                :deps/root "red"
-                                               :exclusions [repro-lib/root]}}}
+                                               :exclusions [repro/root]}}}
             :test {:extra-paths ["components/left/test"
-                                 "components/right/test"]}}}
+                                 "components/right/test"]
+                   :extra-deps {lambdaisland/kaocha           {:mvn/version "1.0.829"}}}}}
