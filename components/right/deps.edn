@@ -1,6 +1,6 @@
 {:paths ["src" "resources"]
  :deps {}
  :aliases {:test {:extra-paths ["test"]
-                  :extra-deps {repro-lib/red {:git/url "https://github.com/Matthew-Ielusic/MinimalBugRepro.git"
-                                               :sha "990eb1efff50e052c3065550e9aff5a94a484118"
+                  :extra-deps {repro-lib/red {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
+                                               :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
                                                :deps/root "Red"}}}}}
