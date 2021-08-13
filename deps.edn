@@ -8,5 +8,5 @@
                                                :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
                                                :deps/root "red"}}}
             :test {:extra-paths ["components/left/test"
-                                 "components/right/test"]
-                   :extra-deps {lambdaisland/kaocha           {:mvn/version "1.0.829"}}}}}
+                                 "components/right/test"]}
+            :kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "1.0.829"}}}}}

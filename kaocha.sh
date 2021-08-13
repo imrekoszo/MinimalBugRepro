@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clojure -Srepro -M:test:dev -m kaocha.runner "$@"
+clojure -Srepro -M:test:dev:kaocha -m kaocha.runner "$@"
