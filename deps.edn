@@ -3,14 +3,12 @@
                                 "components/right/src"]
                   :extra-deps {org.clojure/clojure {:mvn/version "1.10.3"}
                                org.clojure/tools.deps.alpha {:mvn/version "0.12.1003"}
-                               repro-lib/blue {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
-                                               :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
-                                               :deps/root "blue"
-                                               :exclusions [repro/root]}
-                               repro-lib/red  {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
-                                               :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
-                                               :deps/root "red"
-                                               :exclusions [repro/root]}}}
+                               repro-lib/blue {:git/url "https://github.com/imrekoszo/ReproLibrary/"
+                                               :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
+                                               :deps/root "blue"}
+                               repro-lib/red  {:git/url "https://github.com/imrekoszo/ReproLibrary/"
+                                               :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
+                                               :deps/root "red"}}}
             :test {:extra-paths ["components/left/test"
                                  "components/right/test"]
                    :extra-deps {lambdaisland/kaocha           {:mvn/version "1.0.829"}}}}}

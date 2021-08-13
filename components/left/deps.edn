@@ -1,7 +1,6 @@
 {:paths ["src" "resources"]
  :deps {}
  :aliases {:test {:extra-paths ["test"]
-                  :extra-deps {repro-lib/blue {:git/url "https://github.com/Matthew-Ielusic/ReproLibrary/"
-                                               :sha "a252586fe4831fe8a719571793cfe81f1f4f7e88"
-                                               :deps/root "Blue"
-                                               :exclusions [repro/root]}}}}}
+                  :extra-deps {repro-lib/blue {:git/url "https://github.com/imrekoszo/ReproLibrary/"
+                                               :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
+                                               :deps/root "blue"}}}}}
