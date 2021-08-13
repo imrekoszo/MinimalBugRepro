@@ -2,10 +2,10 @@
                                 "components/left/src"
                                 "components/right/src"]
                   :extra-deps {repro-lib/blue {:git/url "https://github.com/imrekoszo/ReproLibrary/"
-                                               :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
+                                               :sha "938c214069d6792f498f2e98f048469c456ce94b"
                                                :deps/root "blue"}
                                repro-lib/red  {:git/url "https://github.com/imrekoszo/ReproLibrary/"
-                                               :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
+                                               :sha "938c214069d6792f498f2e98f048469c456ce94b"
                                                :deps/root "red"}}}
             :test {:extra-paths ["components/left/test"
                                  "components/right/test"]}
