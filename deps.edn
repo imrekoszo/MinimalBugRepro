@@ -1,9 +1,7 @@
 {:aliases  {:dev {:extra-paths ["development/src"
                                 "components/left/src"
                                 "components/right/src"]
-                  :extra-deps {org.clojure/clojure {:mvn/version "1.10.3"}
-                               org.clojure/tools.deps.alpha {:mvn/version "0.12.1003"}
-                               repro-lib/blue {:git/url "https://github.com/imrekoszo/ReproLibrary/"
+                  :extra-deps {repro-lib/blue {:git/url "https://github.com/imrekoszo/ReproLibrary/"
                                                :sha "4237c6492172dc6a4102ccfc34df6316ccd1734b"
                                                :deps/root "blue"}
                                repro-lib/red  {:git/url "https://github.com/imrekoszo/ReproLibrary/"
